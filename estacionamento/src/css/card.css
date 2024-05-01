@@ -1,6 +1,6 @@
 .card {
   width: 30%;
-  height: 50%;
+  height: auto;
   background-color: #fff;
   border-radius: 15px;
   padding: 30px;
@@ -19,8 +19,9 @@
   }
 }
 
-.title {
-    font-weight: bold;
-    text-align: center;
-    margin: 0px;
+.card .title {
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 15px;
 }

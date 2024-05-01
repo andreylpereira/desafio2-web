@@ -1,13 +1,11 @@
 import React from "react";
-import Navbar from "../components/navbar"
-import Card from "../components/card"
+import Navbar from "../components/navbar";
+import Form from "../components/form";
 
 const Home = () => (
   <>
     <Navbar />
-    <Card title="CADASTRO DE VAGAS">
-
-    </Card>
+    <Form></Form>
   </>
 );
 
