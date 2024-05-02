@@ -6,10 +6,55 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 body {
   background-color: #3498db;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #acacac;
+  color: #fff;
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #dddddd;
+  background-color: aliceblue;
+  padding: 8px;
+  text-align: center;
+}
+
+.btn-delete {
+  color: #fff;
+  background-color: #af4c4c;
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 0px 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-delete:hover {
+  background-color: #a04545;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-delete:active {
+  background-color: #8e3e3e;
+  box-shadow: none;
 }

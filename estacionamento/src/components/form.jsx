@@ -23,6 +23,13 @@ const Form = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    const isEmpty = Object.values(form).some((value) => value === "");
+    if (isEmpty) {
+      alert("Por favor, preencha todos os campos!");
+      return;
+    }
+    
     console.log("Dados do formulário:", form);
     const formList =
       JSON.parse(sessionStorage.getItem("forms")) || Array(10).fill(null);
