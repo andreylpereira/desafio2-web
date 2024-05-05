@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import ListPark from "./pages/ListPark";
-import ListReservations from "./pages/ListReservations";
+import Parking from "./pages/Parking";
+import Reservations from "./pages/Reservations";
 
 const App = () => {
   
@@ -14,8 +14,8 @@ const App = () => {
       <div>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route path="/list-park" element={<ListPark />} />
-          <Route path="/list-reservations" element={<ListReservations />} />
+          <Route path="/list-park" element={<Parking />} />
+          <Route path="/list-reservations" element={<Reservations />} />
         </Routes>
       </div>
     </Router>
