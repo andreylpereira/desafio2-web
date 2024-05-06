@@ -1,7 +1,7 @@
 import List from "../components/List";
 import React from "react";
-import Navbar from "../components/navbar";
-import Card from "../components/card";
+import Navbar from "../components/Navbar";
+import Card from "../components/Card";
 
 const Parking = () => {
   return (

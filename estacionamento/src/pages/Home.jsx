@@ -1,7 +1,6 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Form from "../components/form";
-
+import Navbar from "../components/Navbar";
+import Form from "../components/Form";
 const Home = () => (
   <>
     <Navbar />

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Parking from "./pages/Parking";
 import Reservations from "./pages/Reservations";
+import NotFound from "./pages/NotFound";
 
 const App = () => {
   
@@ -13,6 +14,7 @@ const App = () => {
     <Router>
       <div>
         <Routes>
+          <Route path="*" element={<NotFound />} />
           <Route exact path="/" element={<Home />} />
           <Route path="/list-park" element={<Parking />} />
           <Route path="/list-reservations" element={<Reservations />} />
